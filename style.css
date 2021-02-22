@@ -1,0 +1,13 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 500px;
+    height: 400px;
+    align-content: space-between;
+    margin: 0 auto;
+}
+
+.item {
+    margin: 20px;
+}

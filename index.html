@@ -1,0 +1,21 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Chess Board Using TypeScript</title>
+        <script src="using-ts.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box">
+            <div class="item">
+                <input id="fen" type="string" placeholder="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" />
+                <button>Load</button>    
+            </div>
+            <div class="item">
+                <canvas id="board" width="800" height="800"></canvas>
+            </div>    
+        </div>
+    </body>
+</html>
